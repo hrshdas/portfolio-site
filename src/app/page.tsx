@@ -61,7 +61,7 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="text-center py-16">
         <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl font-bold mb-4">
-          <h1>Hi, I'm Harsh Das 👋</h1>
+          Hi, I'm Harsh Das 👋
         </motion.h1>
         <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="text-lg max-w-xl mx-auto">
           B.Tech AIML student, aspiring app developer & UI/UX designer. I love turning ideas into interactive, human-centered experiences.
@@ -80,7 +80,6 @@ export default function Portfolio() {
       <section className="max-w-5xl mx-auto py-8">
         <h2 className="text-2xl font-semibold mb-6 text-center">Projects</h2>
         <div className="flex justify-center">
-          
           <Card className="tilt-card bg-[#4a3b30]/80 text-gray-100 backdrop-blur-md shadow-lg w-full md:w-2/3">
             <CardContent className="p-4">
               <h3 className="text-xl font-bold">🤖 Zomato restaurant rating prediction</h3>
@@ -108,6 +107,6 @@ export default function Portfolio() {
           <a href="https://www.linkedin.com/in/harsh-das-6a19211a4/" target="_blank" aria-label="LinkedIn"><Linkedin className="w-6 h-6" /></a>
         </div>
       </section>
-    </div>
-  );
+    </div>
+  );
 }
