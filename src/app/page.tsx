@@ -61,7 +61,7 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="text-center py-16">
         <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl font-bold mb-4">
-          Hi, I'm Harsh Das 👋
+          <h1>Hi, I'm Harsh Das 👋</h1>
         </motion.h1>
         <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="text-lg max-w-xl mx-auto">
           B.Tech AIML student, aspiring app developer & UI/UX designer. I love turning ideas into interactive, human-centered experiences.
@@ -72,7 +72,7 @@ export default function Portfolio() {
       <section className="max-w-3xl mx-auto py-8">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p>
-          I’m currently a 2nd-year B.Tech student specializing in Artificial Intelligence & Machine Learning. I’ve been exploring app development and UI/UX design using tools like Figma and Android Studio. I'm also diving into game development. Passionate about building smart, user-friendly products.
+          I'm currently a 2nd-year B.Tech student specializing in Artificial Intelligence & Machine Learning. I've been exploring app development and UI/UX design using tools like Figma and Android Studio. I'm also diving into game development. Passionate about building smart, user-friendly products.
         </p>
       </section>
 
