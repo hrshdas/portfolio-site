@@ -83,7 +83,7 @@ export default function Portfolio() {
           <Card className="tilt-card bg-[#4a3b30]/80 text-gray-100 backdrop-blur-md shadow-lg w-full md:w-2/3">
             <CardContent className="p-4">
               <h3 className="text-xl font-bold">🤖 Zomato restaurant rating prediction</h3>
-              <p className="text-sm text-gray-300 mb-2">Python + scikit-learn (or your stack)</p>
+              <p className="text-sm text-gray-300 mb-2">Python + scikit-learn</p>
               <p>
                 Predict restaurant ratings using machine learning on the Zomato dataset.
               </p>
