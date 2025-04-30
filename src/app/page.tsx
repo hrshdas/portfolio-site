@@ -61,7 +61,7 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="text-center py-16">
         <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl font-bold mb-4">
-          Hi, I'm Harsh Das 👋
+          Hi, I am Harsh Das 👋
         </motion.h1>
         <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="text-lg max-w-xl mx-auto">
           B.Tech AIML student, aspiring app developer & UI/UX designer. I love turning ideas into interactive, human-centered experiences.
@@ -72,7 +72,7 @@ export default function Portfolio() {
       <section className="max-w-3xl mx-auto py-8">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p>
-          I'm currently a 2nd-year B.Tech student specializing in Artificial Intelligence & Machine Learning. I've been exploring app development and UI/UX design using tools like Figma and Android Studio. I'm also diving into game development. Passionate about building smart, user-friendly products.
+          I am currently a 2nd-year B.Tech student specializing in Artificial Intelligence & Machine Learning. I have been exploring app development and UI/UX design using tools like Figma and Android Studio. I am also diving into game development. Passionate about building smart, user-friendly products.
         </p>
       </section>
 
@@ -99,7 +99,7 @@ export default function Portfolio() {
 
       {/* Contact */}
       <section className="text-center py-12">
-        <h2 className="text-2xl font-semibold mb-4">Let's Connect</h2>
+        <h2 className="text-2xl font-semibold mb-4">Lets Connect</h2>
         <p className="mb-6">Feel free to reach out to me through any of the platforms below!</p>
         <div className="flex justify-center space-x-6">
           <a href="mailto:harsh95hd@gmail.com" aria-label="Email"><Mail className="w-6 h-6" /></a>
